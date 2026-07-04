@@ -1,0 +1,3 @@
+# datos.py
+
+tareas = []
