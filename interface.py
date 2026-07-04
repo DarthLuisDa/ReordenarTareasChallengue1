@@ -1,6 +1,6 @@
-# interfaz.py
+# interface.py
 
-from logica import ver_tareas
+from logic import ver_tareas
 
 
 def mostrar_menu():

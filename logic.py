@@ -1,6 +1,6 @@
-# logica.py
+# logic.py
 
-from datos import tareas
+from data import tareas
 
 
 def agregar_tarea(descripcion):

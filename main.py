@@ -1,12 +1,12 @@
 # main.py
 
-from logica import (
+from logic import (
     agregar_tarea,
     completar_tarea,
     eliminar_tarea
 )
 
-from interfaz import (
+from interface import (
     mostrar_menu,
     mostrar_tareas,
     pedir_numero
