@@ -2,12 +2,6 @@
 # controla el flujo
 from persistence import cargar_datos
 
-def main():
-
-    cargar_datos()
-
-    while True:
-        ...
 
 from logic import (
     agregar_tarea,
@@ -24,6 +18,7 @@ from interface import (
 
 
 def main():
+    cargar_datos()
     while True:
         mostrar_menu()
         opcion = input("Elige una opción: ")

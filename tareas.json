@@ -1,0 +1,18 @@
+[
+    {
+        "descripcion": "Terminar el Challengue1",
+        "completada": true
+    },
+    {
+        "descripcion": "Subir el Challengue1 a GitHub",
+        "completada": false
+    },
+    {
+        "descripcion": "Pasar el link del repositorio a un PDF",
+        "completada": false
+    },
+    {
+        "descripcion": "Subir el PDF Challengue1 a la página de Methaphorce",
+        "completada": false
+    }
+]
