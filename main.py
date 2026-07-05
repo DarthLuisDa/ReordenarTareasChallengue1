@@ -1,5 +1,14 @@
 # main.py
 # controla el flujo
+from persistence import cargar_datos
+
+def main():
+
+    cargar_datos()
+
+    while True:
+        ...
+
 from logic import (
     agregar_tarea,
     completar_tarea,
@@ -23,7 +32,7 @@ def main():
             desc = input("Escribe la tarea: ")
             agregar_tarea(desc)
             print(f"✅ La tarea '{desc}' fue agregada correctamente.")
-            
+
         elif opcion == "2":
             mostrar_tareas()
 
@@ -64,23 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-        #Cambiamos estas 2 partes
-        # elif opcion == "3":
-        #    mostrar_tareas()
-        #    num = pedir_numero("Número de tarea: ")
-        #    if num:
-        #        try:
-        #            completar_tarea(num - 1)
-        #        except IndexError:
-        #            print("❌ Índice inválido")
-        #
-        #elif opcion == "4":
-        #    mostrar_tareas()
-        #    num = pedir_numero("Número de tarea: ")
-        #    if num:
-        #        try:
-        #            eliminar_tarea(num - 1)
-        #       except IndexError:
-        #Completar y Eliminar Tareas en main.py            print("❌ Índice inválido")
