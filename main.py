@@ -22,7 +22,8 @@ def main():
         if opcion == "1":
             desc = input("Escribe la tarea: ")
             agregar_tarea(desc)
-
+            print(f"✅ La tarea '{desc}' fue agregada correctamente.")
+            
         elif opcion == "2":
             mostrar_tareas()
 
@@ -82,4 +83,4 @@ if __name__ == "__main__":
         #        try:
         #            eliminar_tarea(num - 1)
         #       except IndexError:
-        #            print("❌ Índice inválido")
+        #Completar y Eliminar Tareas en main.py            print("❌ Índice inválido")
