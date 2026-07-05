@@ -1,5 +1,5 @@
 # logic.py
-
+#CRUD
 from data import tareas
 
 

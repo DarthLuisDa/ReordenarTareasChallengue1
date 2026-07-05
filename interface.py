@@ -1,5 +1,5 @@
 # interface.py
-
+#Imprime y pide datos
 from logic import ver_tareas
 
 
